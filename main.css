@@ -1,0 +1,53 @@
+body {
+    font-family: Roboto,sans-serif;
+}
+.navbar {
+    background-color: #2723b5;
+}
+#cabecalho .nav .nav-link.active {
+ background-color: #fff;
+ color: #2723b5;
+}
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-treinos .nav-link.active:hover{
+    color: #fff;
+}
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+#sobre-a-escola,
+ #treinos {
+    background-color: #d0cbca;
+}
+.text-colored {
+    color: #2723b5;
+}
+.nav-treinos .nav-link.active,
+#fale-conosco button {
+    background-color: #2723b5;
+    color: #fff;
+}
+.nav-treinos .nav-link:hover {
+    color: #2723b5;
+}
+.social-links li {
+ list-style: none;
+ display: inline;
+}
+.carousel-item img {
+    height: 420px;
+}
+.social-links a {
+    text-decoration: none;
+}
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
