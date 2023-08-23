@@ -1,54 +1,79 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto SASS</title>
+    <link rel="stylesheet" href="build/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="main.css">
-    <title>Formulario</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Cadastro</h1>
-    <section id="contato">
+    <header>
         <div class="container">
-            <h2>Insira seus dados</h2>
-            <form>
-                 <div class="form-campo">
-                    <label for="nome">Nome:</label>
-                    <input type="text" id="nome" placeholder="Nome completo" name="nome">
-                </div>
-                <div class="form-campo">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" placeholder="E-mail" name="email">
-                </div>
-                <div class="form-campo">
-                    <label for="telefone">Telefone:</label>
-                    <input type="tel" id="telefone" placeholder="Telefone" name="telefone">
-                </div>
-                <div class="form-campo">
-                    <label for="cpf">CPF:</label>
-                    <input type="cpf" id="cpf" placeholder="Digite seu CPF" name="insiraOCpf">
-                </div>
-                <div class="form-campo">
-                    <label for="cep">Cep:</label>
-                    <input type="cep" id="cep" placeholder="Digite seu Cep" name="insiraOCep">
-                </div>
-                <div class="form-campo">
-                    <label for="endereco">Endereço:</label>
-                    <input type="end" id="endereco" placeholder="Enderço completo" name="endereco">
-                </div>
-                <button type="submit" id="enviar">Enviar</button>
-            </form>
+            <div class="branding">
+                <img src="https://via.placeholder.com/120x70" />
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a href="#">Início</a>
+                    </li>
+                    <li>
+                        <a href="#">Produtos</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <h2>Produtos</h2>
+            <ul class="products">
+                <li class="product-item">
+                    <img src="https://via.placeholder.com/180x180" />
+                    <h4>Nome do produto</h4>
+                    <p>
+                        Descrição do produto, cor, tamanho, textura, etc.
+                    </p>
+                    <a href="#" class="product-button">
+                        Ver detalhes
+                    </a>
+                </li>
+                <li class="product-item">
+                    <img src="https://via.placeholder.com/180x180" />
+                    <h4>Nome do produto</h4>
+                    <p>
+                        Descrição do produto, cor, tamanho, textura, etc.
+                    </p>
+                    <a href="#" class="product-button">
+                        Ver detalhes
+                    </a>
+                </li>
+                <li class="product-item">
+                    <img src="https://via.placeholder.com/180x180" />
+                    <h4>Nome do produto</h4>
+                    <p>
+                        Descrição do produto, cor, tamanho, textura, etc.
+                    </p>
+                    <a href="#" class="product-button">
+                        Ver detalhes
+                    </a>
+                </li>
+                <li class="product-item">
+                    <img src="https://via.placeholder.com/180x180" />
+                    <h4>Nome do produto</h4>
+                    <p>
+                        Descrição do produto, cor, tamanho, textura, etc.
+                    </p>
+                    <a href="#" class="product-button">
+                        Ver detalhes
+                    </a>
+                </li>
+            </ul>
         </div>
     </section>
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="./js/jquery.mask.js"></script>
-    <script src="./js/jquery.validate.min.js"></script>
-    <script src="./js/messages_pt_BR.min.js"></script>
-    <script src="js/main.js"></script>
-
 </body>
 </html>
