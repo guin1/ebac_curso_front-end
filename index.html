@@ -2,60 +2,98 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <title>EBAC Makeon</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
-<title>Formulario tabela</title>
-<link rel="stylesheet" href="./main.css">   
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
-
-    <body>
-      <div class="container">
-    <header>
-        <img src="./images/agenda4.avif" alt="agenda de telefone" >
-
-        <h1 id="titulo">Agenda de contatos</h1>
-        
-     </header>
-     
-   
-
-
-     <Form id="form-contato">
-
-      <input type="text" id="contato" required placeholder="Nome" />  <br />
-      <input type="tel" id="telefone" required placeholder="Telefone" maxlength="10"/>
-      <button type="submit">Salvar contato</button>
-  </Form>
-
-        <table id="tabela">
-          <thead>
-            <tr>
-              <td><strong>Nome</strong></td>
-              <td><strong>Telefone</strong></td>
-              <td><strong>Resultado :</strong></td>
-          </tr>
-
-        </thead>
-        
-        
-        <tbody>
-            <tfoot>
-            <tr>
-            <td>Adicionado</td>
-            <td id="numero-salvo">---</td>
-            <td id="nome-salvo">---</td>
-           </tr> 
-        </tfoot>
-      </table>
-          
-     </div>
-     <script src="./main.js"></script>
-
     
+    <header>
+        <div class="container">
+            
+            <h1>EBAC Makeon</h1>
+            <nav class="navegacao">
+                <ul>
+                    <li>
+                        <a href="#">Batons</a>
+                    </li>
+                    <li>
+                        <a href="#">Pinceis</a>
+                    </li>
+                </ul>
+            </nav> 
+        </div><!--fim container -->
+    </header>
+
+<section>
+  <div class="container">
+    <article class="logo">
+  <div>
+    <img class="imagem-logo" src="images/logo.avif" alt="">
+  </div>
+  <div>
+    <h2 class="sobre">Sobre a loja:</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta reiciendis a quia minima tempore? Ad beatae cum ipsam distinctio magni dicta aspernatur quidem inventore reiciendis aliquam, sequi nam iure quae.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta reiciendis a quia minima tempore? Ad beatae cum ipsam distinctio magni dicta aspernatur quidem inventore reiciendis aliquam, sequi nam iure quae.
+    </p>
+  </div>
+</article>
+  </div>  <!-- fim container -->
+</section>
+
+<section>
+  <div class="container">
+  <h2 id="lancamentos">Últimos lançamentos :</h2><br><br>
+  <hr>
+  <div class="produtos">
+      <article class="novidades">
+          <a href="#">
+            <img id="batom-img" src="images/batom.avif"/>
+          </a>
+          <h3>Batons</h3>
+          <h5> São muitas as ações possíveis na hora de se maquiar e saber qual pincel.</h5>
+          <button type="submit">Adicionar Carrinho</button>
+        </article>
+        <article class="novidades">
+          <a href="#">
+            <img src="images/pincel.avif"/>
+          </a>
+          <h3>Pincel </h3>
+          <h5> São muitas as ações possíveis na hora de se maquiar e saber qual pincel. </h5>
+          <button type="submit">Adicionar Carrinho</button>
+        </article>
+        <article class="novidades">
+          <a href="#">
+            <img src="images/blush.avif"/>
+          </a>
+          <h3>Blush</h3>
+          <h5>Uma pele saudável tem um rubor natural na região das bochechas, entre outros</h5>
+          <button type="submit">Adicionar Carrinho</button>
+        </article>
+        <article class="novidades">
+          <a href="#">
+            <img src="images/hidratante2.jpg"/>
+          </a>
+          <h3>Creme</h3>
+          <h5>Uma pele saudável tem um rubor natural na região das bochechas, entre outros</h5>
+          <button type="submit">Adicionar Carrinho</button>
+        </article>
+        </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+      <p>
+          &copy; EBAC Makeon - Todos os direitos reservados - 2023
+      </p>
+  </div>
+</footer>
+
 </body>
 </html>
