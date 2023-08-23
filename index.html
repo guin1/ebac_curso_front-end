@@ -3,431 +3,274 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <title>Motors</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-     <link rel="stylesheet" href="main.css">
-    <title>Escola de Esporte</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 </head>
 <body>
-<header class="navbar navbar-expand-lg sticky-top pt-4" id="cabecalho">
- <div class="container">
-    <h1 class="navbar-brand m-0 section-title">Escola de Esporte</h1>
-    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
-        <ul class="nav nav-pills d-block d-md-flex">
-            <li class="nav-item fw-bold">
-                <a href="#sobre-a-escola" class="nav-link">
-                    <i class="bi bi-house-door me-1"></i>
-                    Sobre a escola
-                </a>
+
+    <header>
+    <div class="container container-flex">
+        <h1>Ebac motors</h1>
+        <div class="menu-hamburguer">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+        <nav>
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="#sobre-a-loja">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#destaque">Em destaque</a>
+                    </li>
+                    <li>
+                        <a href="#promocoes">Promoções</a>
+                    </li>
+                    <li>
+                        <a href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div id="carousel-imagens">
+        <img src="./images/slide1.png" alt="porsh 911">
+        <img src="./images/slide2.png" alt="BMW x4">
+        <img src="./images/slide3.png" alt="Ford">
+    </div>
+
+    <section id="sobre-a-loja">
+    <div class="container container-flex">
+      <img src="images/loja.jpg" alt="Imagem da loja Ebac motors">
+        <div>
+            <h2>Sobre a Ebac motors</h2>
+               <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat minus id molestias commodi tempore dicta veritatis voluptates exercitationem, impedit, at doloremque aliquam sequi provident similique a delectus reprehenderit saepe maxime?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat minus id molestias commodi tempore dicta veritatis voluptates exercitationem, impedit, at doloremque aliquam sequi provident similique a delectus reprehenderit saepe maxime?
+             </p>
+        </div>
+      </div>
+    </section>
+    
+    <section id="destaque">
+        <div class="container">
+            <h2>Em destaque</h2>
+        <ul class="container-flex lista-veiculos">
+            <li>
+            <img src="images/fusca.png" alt="">
+            <h3>Fusca</h3>
+            <p>
+                Automático, 4 porta, vidros e travas elétricas
+            </p>
+            <div class="price">
+                <strong>R$ 75.000,00</strong>
+               </div>
+            <button type="button">Tenho interesse</button>
             </li>
-            <li class="nav-item fw-bold">
-                <a href="#eventos" class="nav-link">
-                    <i class="bi bi-calendar-check me-1"></i>
-                    Eventos esportivos
-                </a>
+            
+            <li class="item-central">
+            <img src="images/moto-bmw.png" alt="">
+            <h3>Moto BMW</h3>
+            <p>
+                Automático, 4 porta, vidros e travas elétricas
+            </p>
+            <div class="price">
+                 <!-- <del>R$ 100.000,00</del> -->
+                <strong>R$ 75.000,00</strong>
+               </div>
+            <button type="button">Tenho interesse</button>
             </li>
-            <li class="nav-item fw-bold">
-                <a href="#treinos" class="nav-link">
-                    <i class="bi bi-card-text me-1"></i>
-                    Nosso Treinos
-                </a>
+
+            <li>
+            <img src="images/carro-bmw.png" alt="">
+            <h3>Carro bmw</h3>
+            <p>
+                Automático, 4 porta, vidros e travas elétricas
+            </p>
+            <div class="price">
+                <!-- <del>R$ 100.000,00</del> -->
+                <strong>R$ 75.000,00</strong>
+               </div>
+            <button type="button">Tenho interesse</button>
             </li>
-            <li class="nav-item fw-bold">
-                <a href="#fale-conosco" class="nav-link">
-                    <i class="bi bi-chat-left-text me-1"></i>
-                     Fale conosco
-                 </a>
+
+            <li>
+            <img src="images/carro-bmw.png" alt="">
+            <h3>Carro bmw</h3>
+            <p>
+                Automático, 4 porta, vidros e travas elétricas
+            </p>
+            <div class="price">
+                <!-- <del>R$ 100.000,00</del> -->
+                <strong>R$ 75.000,00</strong>
+               </div>
+            <button type="button">Tenho interesse</button>
+            </li>
+
+            <li class="item-central">
+            <img src="images/carro-bmw.png" alt="">
+            <h3>Carro bmw</h3>
+            <p>
+                Automático, 4 porta, vidros e travas elétricas
+            </p>
+            <div class="price">
+                <!-- <del>R$ 100.000,00</del> -->
+                <strong>R$ 75.000,00</strong>
+               </div>
+            <button type="button">Tenho interesse</button>
             </li>
         </ul>
-    </nav>
- </div>
-</header>
-
-<div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
- <section id="sobre-a-escola">
-    <div class="">
-        <div class="carousel slide" data-bs-ride="carousel" id="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="3000">
-                  <img class="w-100" src="images/slides/silde1.jpg" alt="Foto da bike">
-                </div>
-                <div class="carousel-item" data-bs-interval="3000">
-                    <img class="w-100" src="images/slides/slide2.jpg" alt="Foto do vôlei">
-                  </div>
-                  <div class="carousel-item" data-bs-interval="3000">
-                    <img class="w-100" src="images/slides/slide3.jpg" alt="Foto do Patins">
-                  </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-             <span class="carousel-control-prev-icon"></span>
-            </button> 
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-               </button> 
-               <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
-                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
-                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
-               </div>
-    </div>
-  </div>
-  <div class="pt-5 pb-5"></div>
-  <div class="container">
-     <div class="row">
-        <div class="col-md-5">
-            <img src="images/futebol.jpg" class="d-block w-100 rounded" alt="Foto de pessoas jogando bola">
         </div>
-            <div class="col-md-7 mt-3 mt-md-0">
-              <h2 class="section-title">Sobre <span class="text-colored">Futebol</span></h2>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad nemo nesciunt explicabo quasi sint? Eum saepe esse, perferendis delectus vero temporibus ipsum illum, quas repellendus ullam officia, placeat magnam obcaecati.
-            </p>
-            <h3 class="section-title">Sobre <span class="text-colored">jogar na Praia</span></h3>
+    </section>
+
+    <section id="promocoes">
+        <div class="container ">
+            <h2>Promoções</h2>
+        <ul class="container-flex lista-veiculos">
+
+            <li>
+            <img src="images/carro-bmw.png" alt="">
+            <h3>Carro bmw</h3>
             <p>
-             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis necessitatibus labore nam, culpa amet quidem et laboriosam nesciunt error at nostrum sit laudantium voluptates velit aperiam nemo aliquid illum iste.
+                Automático, 4 porta, vidros e travas elétricas
             </p>
-            <h3 class="section-title">Esportes <span class="text-colored">Mais famosos :</span></h3>
-            <ul>
-                <li>Futebol</li>
-                <li>Vôlei</li>
-                <li>Tênis</li>
+            <div class="price">
+                <del>R$ 100.000,00</del>
+                <strong>R$ 75.000,00</strong>
+               </div>
+            <button type="button">Tenho interesse</button>
+            </li>
+            
+            <li class="item-central">
+            <img src="images/carro-bmw.png" alt="">
+            <h3>Carro bmw</h3>
+            <p>
+                Automático, 4 porta, vidros e travas elétricas
+            </p>
+            <div class="price">
+                <del>R$ 100.000,00</del>
+                <strong>R$ 75.000,00</strong>
+               </div>
+            <button type="button">Tenho interesse</button>
+            </li>
+
+            <!-- <li>
+                <img src="images/carro-bmw.png" alt="">
+                <h3>Carro bmw</h3>
+                <p>
+                    Automático, 4 porta, vidros e travas elétricas
+                </p>
+                <div class="price">
+                    <del>R$ 100.000,00</del>
+                    <strong>R$ 75.000,00</strong>
+                   </div>
+                <button type="button">Tenho interesse</button>
+                </li> -->
+
+                <li>
+                    <img src="images/carro-bmw.png" alt="">
+                    <h3>Carro bmw</h3>
+                    <p>
+                        Automático, 4 porta, vidros e travas elétricas
+                    </p>
+                    <div class="price">
+                        <del>R$ 100.000,00</del>
+                        <strong>R$ 75.000,00</strong>
+                       </div>
+                    <button type="button">Tenho interesse</button>
+                    </li>
+
+            <li>
+            <img src="images/carro-bmw.png" alt="">
+            <h3>Carro bmw</h3>
+            <p>
+                Automático, 4 porta, vidros e travas elétricas
+            </p>
+                <div class="price">
+                     <del>R$ 100.000,00</del>
+                    <strong>R$ 75.000,00</strong>
+                   </div>
+                   <button type="button">Tenho interesse</button>
+               </div>
+            </li>
+        </ul>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <h2>Entre em contato</h2>
+            <form>
+                 <div class="form-campo">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome">
+                </div>
+                 <div class="form-campo">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone">
+                </div>
+                <div class="form-campo">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-campo">
+                    <label for="veiculo-interesse">Veiculo interesse:</label>
+                    <input type="text" id="veiculo-interesse" name="veiculoDeInteresse">
+                </div>
+                <div class="form-campo">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem"></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container container-flex">
+            <p>
+                2023 &copy; EBAC MOTORS - Todos os diretos reservados
+            </p>
+            <ul class="container-flex">
+                <li>
+                    <a href="#">
+                        <img src="./icones/facebook.png" alt="facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./icones/youtube.png" alt="youtube">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./icones/instagram.png" alt="instagram">
+                    </a>
+
+                </li>
             </ul>
-            </div>
         </div>
-  </div>
- </section>
+    </footer>
 
 
- <section id="eventos" class="pt-5 pb-5">
-  <div class="container">
-    <div class="row">
-        <h2 class="section-title text-center">Em todos os lugares<span class="text-colored"> o esporte está</span></h2>
-    </div>
-    <div class="row mt-4">
-        <div class="col-md-4">
-         <img src="images/eventos/basketball.jpg" alt="" class="d-block w-100 rounded mb-2">
-         <h3 class="section-title text-colored">
-            Basquete
-        </h3>
-         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, facilis necessitatibus laboriosam dignissimos impedit tenetur, asperiores numquam minus provident dolores architecto quam iste facere voluptates sequi labore quidem, optio veritatis.
-         </p>
-        </div>
-            <div class="col-md-4">
-             <img src="images/eventos/musculacao.jpg" alt="" class="d-block w-100 rounded mb-2">
-             <h3 class="section-title text-colored">
-               Alongamento
-            </h3>
-             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, facilis necessitatibus laboriosam dignissimos impedit tenetur, asperiores numquam minus provident dolores architecto quam iste facere voluptates sequi labore quidem, optio veritatis.
-             </p>
-            </div>
 
-                <div class="col-md-4">
-                 <img src="images/eventos/corrida.jpg" alt="" class="d-block w-100 rounded mb-2">
-                 <h3 class="section-title text-colored fs-4">
 
-                    Caminhar 
-                </h3>
-                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, facilis necessitatibus laboriosam dignissimos impedit tenetur, asperiores numquam minus provident dolores architecto quam iste facere voluptates sequi labore quidem, optio veritatis.
-                 </p>
-                </div>
-    </div>
-  </div>
- </section>
-
- <section id="treinos" class="pt-5 pb-5">
-    <div class="container">
-        <div class="row">
-            <h2 class="section-title text-center mb-5">
-                Nosso <span class="text-colored">treinos</span>
-            </h2>
-        </div>
-    <div class="row">
-        <aside class="col-md-2">
-        <nav class="nav nav-pills flex-column nav-treinos">
-            <button type="button" data-bs-toggle="tab" data-bs-target="#futebol" class="fw-bold text-start nav-link text-colored active">Futebol</button>
-            <button type="button" data-bs-toggle="tab" data-bs-target="#volei" class="fw-bold text-start nav-link text-colored">Vôlei</button>
-            <button type="button" data-bs-toggle="tab" data-bs-target="#basketball" class="fw-bold text-start nav-link text-colored">Basquete</button>
-            <button type="button" data-bs-toggle="tab" data-bs-target="#ping-pong" class="fw-bold text-start nav-link text-colored mb-2">Ping-pong</button>
-        </nav>
-        </aside>
-        <div class="col-md-10">
-        <div class="tab-content">
-            <div class="tab-pane active" id="futebol">
-                <div class="row">
-                    <div class="col-md-3">
-                        <img class="d-block w-100" src="images/esportes/fut/fut1 (1).jpg" alt="Futebol">
-                        <h5 class="text-colred fw-bold mt-2">Temos treino</h5>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, quis doloremque.
-                        </p>
-                    </div>
-                    <div class="col-md-3">
-                        <img class="d-block w-100" src="images/esportes/fut/fut1 (2).jpg" alt="Futebol">
-                        <h5 class="text-colred fw-bold mt-2">Campeonatos</h5>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, quis doloremque.
-                        </p>
-                    </div>
-                    <div class="col-md-3">
-                        <img class="d-block w-100" src="images/esportes/fut/fut1 (1).jpg" alt="Futebol">
-                        <h5 class="text-colred fw-bold mt-2">Temos treino</h5>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, quis doloremque.
-                        </p>
-                    </div>
-                    <div class="col-md-3">
-                        <img class="d-block w-100" src="images/esportes/fut/fut1 (2).jpg" alt="Futebol">
-                        <h5 class="text-colred fw-bold mt-2">Campeonatos</h5>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, quis doloremque.
-                        </p>
-                    </div>
-                    <div class="col-md-3">
-                        <img class="d-block w-100" src="images/esportes/fut/fut1 (1).jpg" alt="Futebol">
-                        <h5 class="text-colred fw-bold mt-2">Temos treino</h5>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, quis doloremque.
-                        </p>
-                    </div>
-                    <div class="col-md-3">
-                        <img class="d-block w-100" src="images/esportes/fut/fut1 (2).jpg" alt="Futebol">
-                        <h5 class="text-colred fw-bold mt-2">Campeonatos</h5>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, quis doloremque.
-                        </p>
-                    </div>
-                    
-                </div>
-            </div>
-            <div class="tab-pane" id="volei">
-                <div class="row">
-                    <div class="col-md-3">
-                        <img class="d-block w-100" src="images/esportes/volei/volei1 (1).jpg" alt="Foto de vôlei">
-                        <h5 class="text-colred fw-bold mt-2">Vôlei</h5>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, quis doloremque.
-                        </p>
-                    </div>
-                    <div class="col-md-3">
-                        <img class="d-block w-100" src="images/esportes/volei/volei1 (2).jpg" alt="Foto de vôlei">
-                        <h5 class="text-colred fw-bold mt-2">Campeonatos</h5>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, quis doloremque.
-                        </p>
-                    </div>
-                    <div class="col-md-3">
-                        <img class="d-block w-100" src="images/esportes/volei/volei1 (1).jpg" alt="Foto de vôlei">
-                        <h5 class="text-colred fw-bold mt-2">Vôlei</h5>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, quis doloremque.
-                        </p>
-                    </div>
-                    <div class="col-md-3">
-                        <img class="d-block w-100" src="images/esportes/volei/volei1 (2).jpg" alt="Foto de vôlei">
-                        <h5 class="text-colred fw-bold mt-2">Campeonatos</h5>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, quis doloremque.
-                        </p>
-                    </div>
-                    <div class="col-md-3">
-                        <img class="d-block w-100" src="images/esportes/volei/volei1 (1).jpg" alt="Foto de vôlei">
-                        <h5 class="text-colred fw-bold mt-2">Vôlei</h5>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, quis doloremque.
-                        </p>
-                    </div>
-                    <div class="col-md-3">
-                        <img class="d-block w-100" src="images/esportes/volei/volei1 (2).jpg" alt="Foto de vôlei">
-                        <h5 class="text-colred fw-bold mt-2">Campeonatos</h5>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, quis doloremque.
-                        </p>
-                    </div>
-                    
-                </div>
-            </div>
-            <div class="tab-pane" id="basketball">
-                <div class="row">
-                    <div class="col-md-3">
-                        <img class="d-block w-100" src="images/esportes/basquete/basquete1 (1).jpg" alt="Basquete">
-                        <h5 class="text-colred fw-bold mt-2">Basquete</h5>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, quis doloremque.
-                        </p>
-                    </div>
-                    <div class="col-md-3">
-                        <img class="d-block w-100" src="images/esportes/basquete/basquete1 (2).jpg" alt="Basquete">
-                        <h5 class="text-colred fw-bold mt-2">Basquete</h5>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, quis doloremque.
-                        </p>
-                    </div>
-                    <div class="col-md-3">
-                        <img class="d-block w-100" src="images/esportes/basquete/basquete1 (1).jpg" alt="Basquete">
-                        <h5 class="text-colred fw-bold mt-2">Basquete</h5>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, quis doloremque.
-                        </p>
-                    </div>
-                    <div class="col-md-3">
-                        <img class="d-block w-100" src="images/esportes/basquete/basquete1 (2).jpg" alt="Basquete">
-                        <h5 class="text-colred fw-bold mt-2">Basquete</h5>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, quis doloremque.
-                        </p>
-                    </div>
-                    <div class="col-md-3">
-                        <img class="d-block w-100" src="images/esportes/basquete/basquete1 (1).jpg" alt="Basquete">
-                        <h5 class="text-colred fw-bold mt-2">Basquete</h5>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, quis doloremque.
-                        </p>
-                    </div>
-                    <div class="col-md-3">
-                        <img class="d-block w-100" src="images/esportes/basquete/basquete1 (2).jpg" alt="Basquete">
-                        <h5 class="text-colred fw-bold mt-2">Basquete</h5>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, quis doloremque.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="tab-pane" id="ping-pong">
-                <div class="row">
-                    <div class="col-md-3">
-                        <img class="d-block w-100" src="images/esportes/tenis/ping-pong-2.jpg" alt="Ping-pong">
-                        <h5 class="text-colred fw-bold mt-2">Ping-pong</h5>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, quis doloremque.
-                        </p>
-                    </div>
-                    <div class="col-md-3">
-                        <img class="d-block w-100" src="images/esportes/tenis/pin-pong-1 (2).jpg" alt="Ping-pong">
-                        <h5 class="text-colred fw-bold mt-2">Ping-pong</h5>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, quis doloremque.
-                        </p>
-                    </div>
-                    <div class="col-md-3">
-                        <img class="d-block w-100" src="images/esportes/tenis/ping-pong-2.jpg" alt="Ping-pong">
-                        <h5 class="text-colred fw-bold mt-2">Ping-pong</h5>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, quis doloremque.
-                        </p>
-                    </div>
-                    <div class="col-md-3">
-                        <img class="d-block w-100" src="images/esportes/tenis/pin-pong-1 (2).jpg" alt="Ping-pong">
-                        <h5 class="text-colred fw-bold mt-2">Ping-pong</h5>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, quis doloremque.
-                        </p>
-                    </div>
-                    <div class="col-md-3">
-                        <img class="d-block w-100" src="images/esportes/tenis/ping-pong-2.jpg" alt="Ping-pong">
-                        <h5 class="text-colred fw-bold mt-2">Ping-pong</h5>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, quis doloremque.
-                        </p>
-                    </div>
-                    <div class="col-md-3">
-                        <img class="d-block w-100" src="images/esportes/tenis/pin-pong-1 (2).jpg" alt="Ping-pong">
-                        <h5 class="text-colred fw-bold mt-2">Ping-pong</h5>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, quis doloremque.
-                        </p>
-                    </div>
-                    
-                    
-                </div>
-            </div>
-
-        </div>
-    </div>
-    </div>
-    </div>
- </section>
-        <section id="fale-conosco" class="pt-5 pb-5">
-          <div class="container">
-            <div class="row">
-                <h2 class="section-title text-center">Fale <span class="text-colored">Conosco</span></h2>
-            </div>
-            <div class="row">
-                 <div class="col-md-7 mb-5">
-                    <form>
-                        <div class="mb-3">
-                            <label for="nome" class="form-label fw-bold text-colored">Seu nome:</label>
-                            <input type="text" id="nome" class="form-control" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label fw-bold text-colored">Seu e-mail:</label>
-                            <input type="email" id="email" class="form-control" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="telfone" class="form-label fw-bold text-colored">Seu telefone (opcional):</label>
-                            <input type="tel" id="telefone" class="form-control">
-                        </div>
-                        <div class="mb-3">
-                            <label for="mensagem" class="form-label fw-bold text-colored">Deixe suas dúvidas sobre nossa escola:</label>
-                            <textarea id="mensagem" class="form-control" required></textarea>
-                        </div>
-                        <button type="submit" class="btn fw-bold">Enviar</button>
-                    </form>
-                 </div>
-                 <div class="col-md-5">
-                    <div class="row">
-                        <h3 class="section-title fs-4 text-colored">
-                            <i class="bi bi-hand-thumbs-up-fill"></i>
-                            Redes sociais
-                        </h3>
-                        <ul class="social-links">
-                            <li class="fs-5">
-                                <a href="#">
-                                    <i class="bi bi-facebook text-colored"></i>
-                                </a>
-                            </li>
-                            <li class="fs-5 ms-1 me-1">
-                                <a href="#">
-                                    <i class="bi bi-instagram text-colored"></i>
-                                </a>
-                            </li>
-                            <li class="fs-5">
-                                <a href="#">
-                                    <i class="bi bi-whatsapp text-colored"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="row mt-4">
-                        <h3 class="section-title fs-4 text-colored">
-                            <i class="bi bi-cursor-fill"></i>
-                            Endereço
-                        </h3>
-                        <p>
-                            Rua teste exemplo n 145, Bairro bootstrap - São paulo - Sp
-                        </p>
-                    </div>
-
-                 </div>
-            </div>
-          </div>
-        </section>
-</div>
-    <script>
-       $('#telefone').mask ('(00) 00000-000',{
-        placheholder:'(00) 00000-000'
-       })
-     </script> 
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/jquery.mask.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="js/messages_pt_BR.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
