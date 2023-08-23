@@ -1,21 +1,23 @@
 {
-  "name": "gruntjs",
+  "name": "gulp",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "grunt": "grunt",
-    "scripts": "main.js",
+    "gulp": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "grunt": "^1.6.1"
-  },
   "dependencies": {
-    "grunt": "^1.6.1",
-    "grunt-contrib-less": "^3.0.0",
-    "grunt-contrib-uglify": "^5.2.2"
+    "gulp": "^4.0.2",
+    "gulp-sourcemaps": "^3.0.0"
+  },
+  "devDependencies": {
+    "gulp-imagemin": "^7.1.0",
+    "gulp-obfuscate": "^0.2.9",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.64.2"
   }
 }
