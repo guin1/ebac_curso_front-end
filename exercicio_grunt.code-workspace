@@ -1,13 +1,1 @@
-{
-	"folders": [
-		{
-			"path": "."
-		},
-		{
-			"path": "../Ebac - Codes/gruntjs"
-		}
-	],
-	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "exercicio_grunt"
-	}
-}
+
