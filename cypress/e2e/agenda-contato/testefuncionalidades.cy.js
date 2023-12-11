@@ -1,6 +1,5 @@
 describe('Testes de funcionalidades na agenda de contatos', () => {
   beforeEach(() => {
-    // Este código será executado antes de cada teste
     cy.visit('https://agenda-contatos-react.vercel.app/');
   });
 
